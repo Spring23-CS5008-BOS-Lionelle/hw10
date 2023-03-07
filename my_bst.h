@@ -9,6 +9,12 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+// use these for print_type in bst_print
+#define INORDER "inorder"
+#define PREORDER "preorder"
+#define POSTORDER "postorder"
+#define BREADTHFIRST "breadthfirst"
+
 // Create a node data struct to store data within
 // our BST. In our case, we will stores 'integers'
 typedef struct Node

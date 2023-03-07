@@ -6,6 +6,8 @@
 
 #include "my_bst.h"
 
+
+
 /**
  * Checks to see if the tree is empty
  * by looking at the tree size.
@@ -61,4 +63,3 @@ BST *create_bst() {
     return NULL;
 }
 
-// HELPER FUNCTIONS - as a reminder, you can (and probably should) write some helper functions for recursion

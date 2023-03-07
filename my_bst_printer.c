@@ -10,28 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 
-/**
- * Prints the tree based on the specified print_type.
- * One node with a *space* between each node. (you do not have to worry about the trailing space)
- * For example, if the tree is A->B, A->C, B->D, B->E, C->F, C->G are preorder output should be
- * A B D E C F G
- * 
- * You should use separate functions for each print type.
- * The print types accepted are
- * - "inorder"
- * - "preorder"
- * - "postorder"
- * - "breadthfirst"
- * HINT: look at the main in the lab-dfs-bfs-practice
- * If an invalid print_type is provided, print an error message.
- */
-void bst_print(BST *tree, char *print_type) {
 
-
-
-
-
-}
 
 // functions copied from lab-dfs-bfs-practice
 
@@ -82,4 +61,24 @@ void printTreeBreadthFirst(Node *root)
             rear++;
         }
     }
+}
+
+/**
+ * Prints the tree based on the specified print_type.
+ * One node with a *space* between each node. (you do not have to worry about the trailing space)
+ * For example, if the tree is A->B, A->C, B->D, B->E, C->F, C->G are preorder output should be
+ * A B D E C F G
+ *
+ * You should use separate functions for each print type.
+ * The print types accepted are
+ * - "inorder"
+ * - "preorder"
+ * - "postorder"
+ * - "breadthfirst"
+ * HINT: look at the main in the lab-dfs-bfs-practice
+ * If an invalid print_type is provided, print an error message.
+ */
+void bst_print(BST *tree, char *print_type)
+{
+
 }
